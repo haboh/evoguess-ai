@@ -161,6 +161,7 @@ __all__ = [
     'Problem',
     'SatProblem',
     'MaxSatProblem',
+    'PseudoBooleanProblem',
     # types
     'CommentSet',
 ]
