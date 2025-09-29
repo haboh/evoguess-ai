@@ -151,6 +151,12 @@ class MaxSatProblem(Problem):
         super().__init__(solver, encoding, input_set, output_set)
 
 
+class PseudoBooleanProblem(Problem):
+    slug = 'problem:pseudo-boolean'
+
+    def __init__(self, solver, encoding, input_set = None, output_set = None):
+        super().__init__(solver, encoding, input_set, output_set)
+
 __all__ = [
     'Problem',
     'SatProblem',
