@@ -1,4 +1,5 @@
 from .pysat import *
+from .scip import *
 
 encodings = {
     CNF.slug: CNF,
@@ -19,5 +20,7 @@ __all__ = [
     # utility
     'to_sat_formula',
     'is_sat_formula',
-    'is_max_sat_formula'
+    'is_max_sat_formula',
+    'is_scip_formula',
+    "ScipFormula"
 ]
